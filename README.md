@@ -1,35 +1,100 @@
-# Relazione Progetto Piattaforma di Streaming XML / XSD
+# 🎬 Relazione Progetto – Piattaforma di Streaming (XML / XSD)
 
-## DEFINIZIONE PROBLEMA:
-il problema da risolvere è quello di creare una piattaforma di streaming, che faccia visualizzare all’utente i vari contenuti multimediali (Film, Serie TV, Documentari) in modo accessibile e strutturato, io ho pensato di progettare un sistema che permette di archiviare e gestire un insieme di contenuti attraverso una pagina web, ma anche un’altra pagina web dove sarà presente la sezione dedicata all’utente con il nome, la categoria preferita e una lista di visione. La struttura dei dati sarà contenuta in un file XML chiamato catalogo.xml con uno schema associato chiamato catalogoDefinition.xsd
-ANALISI DEI DATI: Per progettare un sistema in grado di gestire dei contenuti per la piattaforma streaming, ho raccolto vari tipi di dati, suddivisi tra i contenuti multimediali che personalmente ho scelto per questo progetto ovvero film, serie TV, documentari (contenuti multimediali) e dati relativi agli utenti. Questa struttura consente di organizzare in modo chiaro e ordinato le informazioni necessarie per le varie tipologie di contenuto e per ogni utente, con l’obiettivo di offrire un’esperienza di navigazione semplice e accessibile. Per la gestione della piattaforma, ho raccolto diversi tipi di dati per ogni tipologia di contenuto:
+## 📌 Definizione del Problema
 
-## DATI NECESSARI PER OGNI CONTENUTO:
-Nome
-Regista
-Descrizione
-Valutazione
-Immagine
-Disponibilità
-Genere
-Attori (solo per Film e Serie TV)
-Stagioni (solo per Serie TV)
-Episodio (solo per Serie TV)
-Per quanto riguarda la sezione dell’utente, questi sono i dati che ho raccolto:
+L’obiettivo è creare una **piattaforma di streaming** che consenta all’utente di visualizzare contenuti multimediali (🎞️ Film, 📺 Serie TV, 📚 Documentari) in modo accessibile e strutturato.
 
-## DATI NECESSARI PER L’UTENTE:
-Nome
-Categoria Preferita
-Lista di Visione
-Contenuto
-RELAZIONE TRA PAGINA UTENTE E CATALOGO: Ogni contenuto è associato a più informazioni, come attori, genere, valutazione, descrizione e regista. Allo stesso modo, ogni utente ha una propria lista di visione e il suo genere preferito che si interconnette con i contenuti disponibili sulla piattaforma. La gestione di questi dati in modo efficace migliora l’esperienza degli utenti e la navigabilità della piattaforma.
+🧠 La soluzione proposta prevede:
 
-## SCHEMA:
-link dello schema: https://www.figma.com/board/9bB2GqVCOqo1x5lol5W3ln/Progetto-TPSI?node-id=0-1&t=cOblebf13v0Le1xe-1
+- Una **pagina web** per la visualizzazione e gestione dei contenuti.
+- Una seconda **pagina utente** con:
+  - Nome utente
+  - Categoria preferita
+  - Lista di visione personale
 
-## SOLUZIONE: 
-La soluzione prevede la gestione dei contenuti di una piattaforma streaming utilizzando un file XML strutturato, con il suo relativo schema XSD, e una pagina web per la visualizzazione. Il file XML contiene informazioni sui contenuti (film, serie TV, documentari), inclusi dettagli come titolo, regista, descrizione e valutazione. Per le serie TV, saranno inclusi anche gli episodi. Lo schema XSD garantirà che i dati siano corretti e coerenti. La pagina web, realizzata con HTML, CSS e JavaScript, permette di caricare e visualizzare i contenuti in modo ordinato, con un filtro per mostrare tutto, solo film, solo serie tv o solo documentari ma anche filtri inerenti al genere del contenuto, offrendo una navigazione semplice e accessibile per gli utenti.
+📁 I dati saranno archiviati in un file **XML** (`catalogo.xml`) e validati tramite uno **schema XSD** (`catalogoDefinition.xsd`).
 
-## Preview:
+---
 
-🌐 [SITO WEB ONLINE](https://relazionexmlrischia.netlify.app/)
+## 📊 Analisi dei Dati
+
+Per realizzare una piattaforma efficace, sono stati raccolti e organizzati due principali gruppi di dati:
+
+### 🎞️ Contenuti Multimediali
+
+Le tipologie considerate sono:
+
+- Film
+- Serie TV
+- Documentari
+
+Ogni contenuto include i seguenti dati:
+
+- 🏷️ Nome  
+- 🎬 Regista  
+- 📝 Descrizione  
+- ⭐ Valutazione  
+- 🖼️ Immagine  
+- 📡 Disponibilità  
+- 🧬 Genere  
+- 🎭 Attori (solo Film e Serie TV)  
+- 📅 Stagioni (solo Serie TV)  
+- 🎞️ Episodi (solo Serie TV)  
+
+### 👤 Utenti
+
+Ogni utente dispone delle seguenti informazioni:
+
+- 🧑 Nome  
+- 🎯 Categoria Preferita  
+- 📋 Lista di Visione  
+  - 📌 Contenuti selezionati
+
+---
+
+## 🔗 Relazione tra Pagina Utente e Catalogo
+
+Ogni contenuto nel catalogo è arricchito da attributi come:
+
+- Attori  
+- Genere  
+- Valutazione  
+- Descrizione  
+- Regista
+
+🧩 L’utente ha una **lista di visione personalizzata** e una **categoria preferita**, che si collegano dinamicamente ai contenuti disponibili.
+
+✅ Una buona gestione dei dati migliora la **navigazione** e l’**esperienza utente**.
+
+---
+
+## 🗂️ Schema (Mockup / Struttura)
+
+🔗 [Visualizza lo schema su Figma](https://www.figma.com/board/9bB2GqVCOqo1x5lol5W3ln/Progetto-TPSI?node-id=0-1&t=cOblebf13v0Le1xe-1)
+
+---
+
+## 🧩 Soluzione Tecnica
+
+La soluzione proposta si basa su:
+
+- 🗃️ Un file **XML** strutturato per rappresentare i contenuti
+- 📐 Un file **XSD** per validare la struttura e i dati
+- 🌐 Una **pagina web** realizzata con:
+  - HTML
+  - CSS
+  - JavaScript
+
+### ✨ Funzionalità dell'interfaccia:
+
+- Visualizzazione ordinata dei contenuti
+- Filtri per:
+  - 📺 Tipo (film / serie TV / documentari)
+  - 🧬 Genere
+- Esperienza di navigazione semplice, accessibile e reattiva
+
+---
+
+## 🔍 Preview Online
+
+🌐 **[Vai al sito web](https://relazionexmlrischia.netlify.app/)**
