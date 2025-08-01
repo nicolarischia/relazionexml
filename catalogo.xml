@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StreamingPlatform>
+    <Catalogo>
+        <Film>
+            <Nome>Avengers: Endgame</Nome>
+            <Regista>Anthony e Joe Russo</Regista>
+            <Descrizione>Gli Avengers si uniscono per sconfiggere Thanos e salvare l'universo.</Descrizione>
+            <Attori>
+                <Attore>Robert Downey Jr.</Attore>
+                <Attore>Chris Evans</Attore>
+            </Attori>
+            <Valutazione>8.4</Valutazione>
+            <Genere>Azione</Genere>
+            <Disponibilità>Disponibile</Disponibilità>
+            <Immagine>img/1.jpg</Immagine>
+        </Film>
+        <Film>
+            <Nome>Avatar</Nome>
+            <Regista>James Cameron</Regista>
+            <Descrizione>Un ex marine si unisce agli abitanti di Pandora per combattere gli invasori umani.</Descrizione>
+            <Attori>
+                <Attore>Sam Worthington</Attore>
+                <Attore>Zoe Saldana</Attore>
+            </Attori>
+            <Valutazione>7.9</Valutazione>
+            <Genere>Fantascienza</Genere>
+            <Disponibilità>Non Disponibile</Disponibilità>
+            <Immagine>img/2.jpg</Immagine>
+        </Film>
+        <Film>
+            <Nome>Titanic</Nome>
+            <Regista>James Cameron</Regista>
+            <Descrizione>La storia d'amore di due giovani a bordo del tragico Titanic.</Descrizione>
+            <Attori>
+                <Attore>Leonardo DiCaprio</Attore>
+                <Attore>Kate Winslet</Attore>
+            </Attori>
+            <Valutazione>7.8</Valutazione>
+            <Genere>Drammatico</Genere>
+            <Disponibilità>Disponibile</Disponibilità>
+            <Immagine>img/3.jpg</Immagine>
+        </Film>
+        <Film>
+            <Nome>Spider-Man: No Way Home</Nome>
+            <Regista>Jon Watts</Regista>
+            <Descrizione>Spider-Man affronta le conseguenze di una rivelazione della sua identità segreta e una serie di minacce multiverso.</Descrizione>
+            <Attori>
+                <Attore>Tom Holland</Attore>
+                <Attore>Zendaya</Attore>
+            </Attori>
+            <Valutazione>8.3</Valutazione>
+            <Genere>Azione</Genere>
+            <Disponibilità>Disponibile</Disponibilità>
+            <Immagine>img/10.jpg</Immagine>
+        </Film>
+        <Film>
+            <Nome>Joker</Nome>
+            <Regista>Todd Phillips</Regista>
+            <Descrizione>La discesa di Arthur Fleck nella follia e la sua trasformazione nel villain noto come Joker.</Descrizione>
+            <Attori>
+                <Attore>Joaquin Phoenix</Attore>
+                <Attore>Robert De Niro</Attore>
+            </Attori>
+            <Valutazione>8.5</Valutazione>
+            <Genere>Drammatico</Genere>
+            <Disponibilità>Non Disponibile</Disponibilità>
+            <Immagine>img/11.jpg</Immagine>
+        </Film>
+        <Documentari>
+            <Documentario>
+                <Nome>The Last Dance</Nome>
+                <Regista>Jason Hehir</Regista>
+                <Descrizione>La storia di Michael Jordan e della dinastia dei Chicago Bulls.</Descrizione>
+                <Valutazione>9.1</Valutazione>
+                <Genere>Sport</Genere>
+                <Disponibilità>Disponibile</Disponibilità>
+                <Immagine>img/4.jpg</Immagine>
+            </Documentario>
+            <Documentario>
+                <Nome>My Octopus Teacher</Nome>
+                <Regista>Craig Foster, Pippa Ehrlich</Regista>
+                <Descrizione>Un subacqueo forma un legame speciale con un polpo in Sudafrica.</Descrizione>
+                <Valutazione>8.1</Valutazione>
+                <Genere>Natura</Genere>
+                <Disponibilità>Non Disponibile</Disponibilità>
+                <Immagine>img/5.jpg</Immagine>
+            </Documentario>
+            <Documentario>
+                <Nome>Making a Murderer</Nome>
+                <Regista>Moira Demos, Laura Ricciardi</Regista>
+                <Descrizione>Un'indagine su crimini controversi e il sistema giudiziario americano.</Descrizione>
+                <Valutazione>8.6</Valutazione>
+                <Genere>Crimine</Genere>
+                <Disponibilità>Disponibile</Disponibilità>
+                <Immagine>img/6.jpg</Immagine>
+            </Documentario>
+            <Documentario>
+                <Nome>Our Planet</Nome>
+                <Regista>Alastair Fothergill, Keith Scholey</Regista>
+                <Descrizione>Un documentario che esplora la bellezza naturale del nostro pianeta, narrato da David Attenborough.</Descrizione>
+                <Valutazione>9.3</Valutazione>
+                <Genere>Natura</Genere>
+                <Disponibilità>Non Disponibile</Disponibilità>
+                <Immagine>img/12.jpg</Immagine>
+            </Documentario>
+            <Documentario>
+                <Nome>Planet Earth II</Nome>
+                <Regista>David Attenborough</Regista>
+                <Descrizione>Un viaggio visivamente straordinario in vari habitat naturali della Terra.</Descrizione>
+                <Valutazione>9.5</Valutazione>
+                <Genere>Natura</Genere>
+                <Disponibilità>Disponibile</Disponibilità>
+                <Immagine>img/13.jpg</Immagine>
+            </Documentario>
+        </Documentari>
+        <SerieTV>
+            <Serie>
+                <Nome>Game of Thrones</Nome>
+                <Regista>David Benioff, D.B. Weiss</Regista>
+                <Descrizione>Famiglie nobili combattono per il Trono di Spade in un regno fantasy.</Descrizione>
+                <Valutazione>9.2</Valutazione>
+                <Genere>Fantasy</Genere>
+                <Disponibilità>Disponibile</Disponibilità>
+                <Immagine>img/7.jpg</Immagine>
+                <Stagioni>
+                    <Stagione numero="1">
+                        <Episodio>Winter Is Coming</Episodio>
+                        <Episodio>The Kingsroad</Episodio>
+                    </Stagione>
+                    <Stagione numero="2">
+                        <Episodio>The North Remembers</Episodio>
+                        <Episodio>The Night Lands</Episodio>
+                    </Stagione>
+                </Stagioni>
+            </Serie>
+            <Serie>
+                <Nome>Stranger Things</Nome>
+                <Regista>Duffer Brothers</Regista>
+                <Descrizione>Un gruppo di ragazzi affronta misteri sovrannaturali nella loro città.</Descrizione>
+                <Valutazione>8.7</Valutazione>
+                <Genere>Fantascienza</Genere>
+                <Disponibilità>Disponibile</Disponibilità>
+                <Immagine>img/8.jpg</Immagine>
+                <Stagioni>
+                    <Stagione numero="1">
+                        <Episodio>The Vanishing of Will Byers</Episodio>
+                        <Episodio>The Weirdo on Maple Street</Episodio>
+                    </Stagione>
+                    <Stagione numero="2">
+                        <Episodio>Madmax</Episodio>
+                        <Episodio>Trick or Treat, Freak</Episodio>
+                    </Stagione>
+                </Stagioni>
+            </Serie>
+            <Serie>
+                <Nome>The Witcher</Nome>
+                <Regista>Lauren Schmidt Hissrich</Regista>
+                <Descrizione>Un cacciatore di mostri si fa strada in un mondo pieno di pericoli.</Descrizione>
+                <Valutazione>8.1</Valutazione>
+                <Genere>Fantasy</Genere>
+                <Disponibilità>Non Disponibile</Disponibilità>
+                <Immagine>img/9.jpg</Immagine>
+                <Stagioni>
+                    <Stagione numero="1">
+                        <Episodio>The End's Beginning</Episodio>
+                        <Episodio>Four Marks</Episodio>
+                    </Stagione>
+                    <Stagione numero="2">
+                        <Episodio>A Grain of Truth</Episodio>
+                        <Episodio>Kaer Morhen</Episodio>
+                    </Stagione>
+                </Stagioni>
+            </Serie>
+            <Serie>
+                <Nome>Friends</Nome>
+                <Regista>David Crane, Marta Kauffman</Regista>
+                <Descrizione>Le avventure quotidiane di un gruppo di amici che vivono a New York.</Descrizione>
+                <Valutazione>8.8</Valutazione>
+                <Genere>Commedia</Genere>
+                <Disponibilità>Disponibile</Disponibilità>
+                <Immagine>img/14.jpg</Immagine>
+                <Stagioni>
+                    <Stagione numero="1">
+                        <Episodio>The One Where Monica Gets a Roommate</Episodio>
+                        <Episodio>The One with the Sonogram at the End</Episodio>
+                    </Stagione>
+                    <Stagione numero="2">
+                        <Episodio>The One with Ross's New Girlfriend</Episodio>
+                        <Episodio>The One with the Breast Milk</Episodio>
+                    </Stagione>
+                </Stagioni>
+            </Serie>
+            <Serie>
+                <Nome>The Crown</Nome>
+                <Regista>Peter Morgan</Regista>
+                <Descrizione>Un dramma storico che racconta la vita della Regina Elisabetta II e degli eventi che hanno segnato il suo regno.</Descrizione>
+                <Valutazione>8.7</Valutazione>
+                <Genere>Storico</Genere>
+                <Disponibilità>Non Disponibile</Disponibilità>
+                <Immagine>img/15.jpg</Immagine>
+                <Stagioni>
+                    <Stagione numero="1">
+                        <Episodio>Wolferton Splash</Episodio>
+                        <Episodio>Hyde Park Corner</Episodio>
+                    </Stagione>
+                    <Stagione numero="2">
+                        <Episodio>Misadventure</Episodio>
+                        <Episodio>The Sphinx</Episodio>
+                    </Stagione>
+                </Stagioni>
+            </Serie>
+        </SerieTV>
+    </Catalogo>
+    <Utenti>
+        <Utente>
+            <Nome>Nicola Rischia</Nome>
+            <CategoriaPreferita>Fantascienza</CategoriaPreferita>
+            <ListaDiVisione>
+                <Contenuto>Avatar</Contenuto>
+                <Contenuto>Game of Thrones</Contenuto>
+                <Contenuto>Making a Murderer</Contenuto>
+            </ListaDiVisione>
+        </Utente>
+    </Utenti>
+</StreamingPlatform>

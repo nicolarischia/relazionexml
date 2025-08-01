@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogo di Streaming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PIATTAFORMA STREAMING ONLINE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="img/icons8-catalog-50 (2).png" alt=""></a></li>
+                <div class="separator"></div>
+                <li><a href="utenti.html"><img src="img/icons8-user-50 (1).png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2><b>Catalogo di Streaming</h2>
+    <hr class="divisore">
+    <h3>filtra per categoria:</h3>
+
+    <!--Bottoni per le sezioni -->
+    <div class="button-container">
+        <button onclick="showSection('all')">MOSTRA TUTTO</button>
+        <button onclick="showSection('filmSection')">FILM</button>
+        <button onclick="showSection('serieTVSection')">SERIE TV</button>
+        <button onclick="showSection('documentariSection')">DOCUMENTARI</button>
+        <div class="separator"></div>
+        <button id="resetFilters">PULISCI FILTRI ATTIVI</button>
+    </div>
+    <!--Bottoni per i generi-->
+    <h3>filtra per genere:</h3>
+
+    <div class="button-container">
+        <button id="genereButtons" onclick="showGenere('Azione')">AZIONE</button>
+        <button id="genereButtons" onclick="showGenere('Fantascienza')">FANTASCIENZA</button>
+        <button id="genereButtons" onclick="showGenere('Drammatico')">DRAMMATICO</button>
+        <button id="genereButtons" onclick="showGenere('Sport')">SPORT</button>
+        <button id="genereButtons" onclick="showGenere('Natura')">NATURA</button>
+        <button id="genereButtons" onclick="showGenere('Crimine')">CRIMINE</button>
+        <button id="genereButtons" onclick="showGenere('Fantasy')">FANTASY</button>
+    </div>
+
+    <hr class="divisore">
+
+    <!-- Contenitori per le sezioni-->
+    <div id="filmSection" class="section-content">
+        <h3>Film</h3>
+
+        <div id="filmContainer" class="film-container"></div>
+    </div>
+    
+    <div id="serieTVSection" class="section-content">
+        <h3>Serie TV</h3>
+        
+        <div id="serieTVContainer" class="serie-container"></div>
+    </div>
+    
+    <div id="documentariSection" class="section-content">
+        <h3>Documentari</h3>
+        
+        <div id="documentariContainer" class="documentari-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>     

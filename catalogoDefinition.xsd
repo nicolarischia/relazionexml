@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="StreamingPlatform">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Catalogo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Film" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Nome" type="xs:string"/>
+                                        <xs:element name="Regista" type="xs:string"/>
+                                        <xs:element name="Descrizione" type="xs:string"/>
+                                        <xs:element name="Attori">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Attore" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Valutazione" type="xs:decimal"/>
+                                        <xs:element name="Genere" type="xs:string"/>
+                                        <xs:element name="Disponibilità" type="xs:string"/>
+                                        <xs:element name="Immagine" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="Documentari" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Documentario" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Nome" type="xs:string"/>
+                                                    <xs:element name="Regista" type="xs:string"/>
+                                                    <xs:element name="Descrizione" type="xs:string"/>
+                                                    <xs:element name="Valutazione" type="xs:decimal"/>
+                                                    <xs:element name="Genere" type="xs:string"/>
+                                                    <xs:element name="Disponibilità" type="xs:string"/>
+                                                    <xs:element name="Immagine" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="SerieTV" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Serie" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Nome" type="xs:string"/>
+                                                    <xs:element name="Regista" type="xs:string"/>
+                                                    <xs:element name="Descrizione" type="xs:string"/>
+                                                    <xs:element name="Valutazione" type="xs:decimal"/>
+                                                    <xs:element name="Genere" type="xs:string"/>
+                                                    <xs:element name="Disponibilità" type="xs:string"/>
+                                                    <xs:element name="Immagine" type="xs:string"/>
+                                                    <xs:element name="Stagioni">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Stagione" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="Episodio" type="xs:string" maxOccurs="unbounded"/>
+                                                                        </xs:sequence>
+                                                                        <xs:attribute name="numero" type="xs:positiveInteger" use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Utenti" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Utente" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Nome" type="xs:string"/>
+                                        <xs:element name="CategoriaPreferita" type="xs:string"/>
+                                        <xs:element name="ListaDiVisione">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Contenuto" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

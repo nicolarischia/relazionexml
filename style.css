@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.jpg);
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.divisore {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #2980b9;
+}
+
+h3, h2 {
+    text-align: center;
+    color: white;
+}
+
+.section-content {
+    display: block;
+}
+
+.film-container, .serie-container, .documentari-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.film {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-left: 3px solid red;
+    text-align: center;
+}
+
+.documentari {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-left: 3px solid limegreen;
+    text-align: center;
+}
+
+.serie {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-left: 3px solid #3498db;
+    text-align: center;
+}
+
+.stagione {
+    margin-left: 20px;
+    margin-top: 35px;
+    padding: 10px;
+    border-left: 3px solid gray;
+}
+
+.episodio {
+    margin-left: 20px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-info {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-info h3 {
+    color: #16a085;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.catalogo-imagine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.catalogo-imagine .descrizione {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.catalogo-imagine .titolo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.stagione-episodi {
+    font-size: 12px;
+    color: #888; 
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+    text-align: center;
+}
+
+.disponibile {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.non-disponibile {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.lista-di-visione {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.lista-di-visione li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.catalogo-imagine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogo-imagine img {
+    width: 150px;
+    height: auto;
+}
+
+#resetFilters {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#resetFilters:hover {
+    background-color: #c0392b;
+}
+
+#genereButtons {
+    background-color: rgb(34, 175, 34);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#genereButtons:hover {
+    background-color: green;
+}
+
+.separator {
+    width: 2px;
+    background-color: #000;
+    height: 80%;
+  }
